@@ -42,5 +42,8 @@ def main():
     unzip_directory(directory, targetDirectory)
     #Confirm end of operation
     print('Unzip operation finished.')
-    sys.exit(1)
+    sys.exit(0)
     
+    
+#Call the main function
+main()
